@@ -2,6 +2,7 @@
 // import 'package:carousel_pro/carousel_pro.dart';
 
 import 'package:carousel_pro/carousel_pro.dart';
+import '../widgets/horizontal_list.dart';
 
 import '../colors/colors.dart';
 import 'package:flutter/material.dart';
@@ -98,6 +99,12 @@ class _MainScreenState extends State<MainScreen> {
       body: ListView(
           children: <Widget>[
         Image_silder,
+          Padding(
+            padding: const EdgeInsets.all(10.0),
+            child: Text("Categories",style: TextStyle(fontWeight: FontWeight.w500),),
+         
+          ),
+             HorizontalList(),
           ],
       ),
     );

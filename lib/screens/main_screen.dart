@@ -117,6 +117,7 @@ Widget Image_silder= new Container(
       Image.asset('assets/b.jpg'),
             Image.asset('assets/b1.jpg'),
                 Image.asset('assets/b2.jpg'),
+                   Image.asset('assets/b2.jpg'),
       //  Image.asset('assets/app_image/b3.jpg'),
       // ExactAssetImage("assets/b1.jpg")
     ],
